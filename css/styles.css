@@ -1,4 +1,5 @@
-body {
+header,
+main {
   max-width: 1400px;
   align-items: center;
   margin: auto;
@@ -323,8 +324,9 @@ nav > h1 {
   border-radius: 10px;
   background: rgba(255, 0, 0, 0.05);
   height: 610px;
-  border: 2px solid black;
   text-align: center;
+  padding-top: 50px;
+  margin-bottom: 130px;
 }
 
 .last-input {
@@ -347,4 +349,48 @@ nav > h1 {
   font-size: 20px;
   font-weight: 600;
   border: none;
+}
+
+/* last , the end, footer section starts here  */
+
+footer {
+  background: #070211;
+  height: 610px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* top line  */
+.address-contact {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 1500px;
+  margin: auto;
+  padding: 50px;
+}
+
+.contact,
+.contact > a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+/* middle line lcons  */
+
+.footer-icons {
+  max-width: 1500px;
+  text-align: center;
+  margin: auto;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.15);
+}
+.footer-icons > img {
+  padding: 50px 10px;
 }
