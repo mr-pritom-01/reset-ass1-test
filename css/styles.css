@@ -1,0 +1,253 @@
+body {
+  max-width: 1400px;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px;
+}
+
+/* top banner area  */
+
+header {
+  height: 600px;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+}
+
+nav {
+  text-align: center;
+  margin: auto;
+  padding: 130px;
+}
+
+nav > h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  margin: auto;
+}
+
+nav > h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  margin: auto;
+}
+
+/* main section starts here  */
+
+/* 60% off , all categories */
+
+.sixty-percent-off {
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.sixty-percent-off > h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sixty-percent-off > p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sixty-percent-off > h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* welcome to midnight party section starts here  */
+
+.midnight-party {
+  height: 600px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 100px 50px 50px 20px;
+  border-radius: 15px;
+}
+
+.midnight-party > div > h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.1px;
+}
+
+.midnight-party > div > p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+.join-button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: gray;
+  border: 0.01px solid white;
+  padding: 15px 25px;
+}
+
+/* venue starts here  */
+
+.venue {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 500px;
+  padding-top: 100px;
+  text-align: center;
+  border-radius: 15px;
+  border-bottom: 1px solid rgba(255, 0, 0, 0);
+}
+
+.venue > h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+}
+
+.venue > h3 > span {
+  color: #f00;
+}
+
+.venue > button {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  gap: 10px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+
+/* comming soon,, 2024 part starts here  */
+
+.coming-soon-part {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 130px auto;
+    border: 2px solid rgba(255, 182, 193, 0.471);
+}
+/* 1st column  */
+
+.first-column {
+  width: 395px;
+}
+
+.new-best-offer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.coming-soon {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.first-column-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* picture part  */
+
+.picture-part {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  width: 365px;
+  height: 365px;
+  padding: 20px;
+}
+
+/* 3rd column  */
+
+.last-column {
+    width: 280px;
+    text-align: right;
+}
+.yr2024 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.yr2024-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
