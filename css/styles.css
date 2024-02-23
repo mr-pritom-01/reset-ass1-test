@@ -420,3 +420,72 @@ footer {
 .footer-icons > img {
   padding: 50px 10px;
 }
+
+/* responsive designs  */
+
+@media screen and (max-width: 576px) {
+  header {
+    height: 50%;
+    width: 100%;
+  }
+  nav {
+    padding: 10px;
+  }
+  nav > h3 {
+    font-size: medium;
+  }
+  nav > h1 {
+    font-size: medium;
+    line-height: 200%;
+  }
+
+  
+  .sixty-percent-off > h1 {
+    font-size:x-large;
+  }
+  .sixty-percent-off > p {
+    font-size: large;
+  }
+  .sixty-percent-off > h3 {
+    font-size: large;
+  }
+  .sixty-percent-off > img {
+    width: 50%;
+  }
+
+
+  .midnight-party {
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .midnight-party > div > h1 {
+    font-size: x-large;
+    line-height : 100%;
+  }
+  .midnight-party > div > p {
+    font-size: small;
+  }
+  .midnight-party img {
+    width: 50%;
+  }
+  .midnight-party button {
+    width: 20%;
+    font-size: medium;
+    margin-bottom: 10px;
+  }
+
+
+  .venue h3 {
+    font-size: medium;
+  }
+
+  .coming-soon-part {
+    flex-direction: column;
+    text-align: center;
+  }
+  .picture-part {
+    width: 40%;
+    border: none;
+  }
+}
