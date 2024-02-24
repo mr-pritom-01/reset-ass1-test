@@ -424,9 +424,12 @@ footer {
 /* responsive designs  */
 
 @media screen and (max-width: 576px) {
+  body {
+    width: 500px;
+  }
   header {
-    height: 50%;
-    width: 100%;
+    height: 300px;
+    /* width: 500px; */
   }
   nav {
     padding: 10px;
@@ -439,9 +442,8 @@ footer {
     line-height: 200%;
   }
 
-  
   .sixty-percent-off > h1 {
-    font-size:x-large;
+    font-size: x-large;
   }
   .sixty-percent-off > p {
     font-size: large;
@@ -453,15 +455,15 @@ footer {
     width: 50%;
   }
 
-
   .midnight-party {
     height: auto;
     flex-direction: column;
     padding: 10px;
+    text-align: center;
   }
   .midnight-party > div > h1 {
     font-size: x-large;
-    line-height : 100%;
+    line-height: 100%;
   }
   .midnight-party > div > p {
     font-size: small;
@@ -472,9 +474,8 @@ footer {
   .midnight-party button {
     width: 20%;
     font-size: medium;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
-
 
   .venue h3 {
     font-size: medium;
@@ -485,7 +486,55 @@ footer {
     text-align: center;
   }
   .picture-part {
-    width: 40%;
     border: none;
+    height: auto;
+  }
+  .picture-part > img {
+    width: 50%;
+  }
+  .coming-soon-part > div > h1 {
+    font-size: medium;
+  }
+  .coming-soon-part > div > p {
+    font-size: small;
+  }
+
+  .holiday-sale > h1 {
+    font-size: x-large;
+  }
+  .holiday-sale > p {
+    font-size: small;
+  }
+
+  .box-lady {
+    flex-direction: column;
+  }
+  .lady {
+    width: 50%;
+    height: 50%;
+  }
+  .discount-50 {
+    height: 20%;
+    width: 20%;
+    margin: 1px;
+  }
+
+  .awesome-portfolio {
+    width: max-content;
+    width: 300px;
+  }
+  .awesome-portfolio > div > h1 {
+    font-size: medium;
+  }
+  .awesome-portfolio > div > p {
+    font-size: small;
+  }
+  .portfolio-picture {
+    gap: 1px;
+  }
+  .portfolio-picture > img {
+    width: 30%;
+    height: 30%;
+    padding: 5px;
   }
 }
